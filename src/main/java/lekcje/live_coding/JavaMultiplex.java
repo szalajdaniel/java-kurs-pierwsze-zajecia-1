@@ -44,11 +44,7 @@ public class JavaMultiplex {
         return cenaPodstawowa;
     }
 
-    static void wypiszCeneGrupowa(int iloscBiletow, double cenaPodstawowa) {
-        System.out.printf("%.2f", (obliczCeneGrupowa(iloscBiletow, cenaPodstawowa)));
-    }
 
-    ;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -59,10 +55,10 @@ public class JavaMultiplex {
         salaKinowa[0][0] = 1;
         salaKinowa[2][1] = 1;
         salaKinowa[0][1] = 1;
-        int opcja = 0;
+
         while (wyswietl) {
             System.out.println("1. Pokaż salę | 2. Rezerwuj | 3. Cena grupowa | 0. Wyjdź");
-            opcja = sc.nextInt();
+            int opcja = sc.nextInt();
             sc.nextLine();
             System.out.println("Opcja: " + opcja);
             switch (opcja) {
@@ -94,9 +90,7 @@ public class JavaMultiplex {
                 }
 
 
-                default -> {
-                    System.out.println("Nieznana opcja");
-                }
+                default -> System.out.println("Nieznana opcja");
             }
 
         }
