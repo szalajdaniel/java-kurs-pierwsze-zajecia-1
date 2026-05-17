@@ -25,7 +25,7 @@ public class JavaMultiplex {
     }
 
     static void rezerwacjaMiejscaNaSali(int rzad, int kolumna, int[][] sala) {
-        if (sala.length < rzad || sala[0].length < kolumna) {
+       if (rzad < 0 || rzad >= sala.length || kolumna < 0 || kolumna >= sala[0].length) {
             System.out.println("Podane miejsce nie istanieje");
         } else if (sala[rzad][kolumna] == 1) {
             System.out.println("Podane miejsce jest juz zajete");
@@ -36,13 +36,14 @@ public class JavaMultiplex {
     }
 
     static double obliczCeneGrupowa(int iloscBiletow, double cenaPodstawowa) {
-        if (iloscBiletow > 1) {
-            iloscBiletow--;
-            cenaPodstawowa += obliczCeneGrupowa(iloscBiletow, cenaPodstawowa * 0.95);
-        }
-
+    if (iloscBiletow <= 0) {
+        return 0.0;
+    }
+    if (iloscBiletow == 1) {
         return cenaPodstawowa;
     }
+    return cenaPodstawowa + obliczCeneGrupowa(iloscBiletow - 1, cenaPodstawowa * 0.95);
+}
 
 
 
