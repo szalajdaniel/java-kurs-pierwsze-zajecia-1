@@ -1,9 +1,9 @@
 package main.java.lekcje.optional_in_iot_architecture;
 
-import main.java.lekcje.optional_in_iot_architecture.Model.Building;
-import main.java.lekcje.optional_in_iot_architecture.Model.ControlPanel;
-import main.java.lekcje.optional_in_iot_architecture.Model.Gateway;
-import main.java.lekcje.optional_in_iot_architecture.Service.DiagnosticService;
+import main.java.lekcje.optional_in_iot_architecture.model.Building;
+import main.java.lekcje.optional_in_iot_architecture.model.ControlPanel;
+import main.java.lekcje.optional_in_iot_architecture.model.Gateway;
+import main.java.lekcje.optional_in_iot_architecture.service.DiagnosticService;
 
 public class MainOpt {
     public static void main(String[] args) {
