@@ -1,8 +1,8 @@
-package main.java.lekcje.optional_in_iot_architecture.Service;
+package main.java.lekcje.optional_in_iot_architecture.service;
 
-import main.java.lekcje.optional_in_iot_architecture.Model.Building;
-import main.java.lekcje.optional_in_iot_architecture.Model.ControlPanel;
-import main.java.lekcje.optional_in_iot_architecture.Model.Gateway;
+import main.java.lekcje.optional_in_iot_architecture.model.Building;
+import main.java.lekcje.optional_in_iot_architecture.model.ControlPanel;
+import main.java.lekcje.optional_in_iot_architecture.model.Gateway;
 
 import java.util.Optional;
 

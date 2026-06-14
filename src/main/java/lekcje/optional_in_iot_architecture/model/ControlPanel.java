@@ -1,4 +1,4 @@
-package main.java.lekcje.optional_in_iot_architecture.Model;
+package main.java.lekcje.optional_in_iot_architecture.model;
 
 import java.util.Optional;
 
