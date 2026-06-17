@@ -19,4 +19,3 @@ public class MainTreeset {
 //Różnica polega na tym, że HashSet weryfikuje unikalność obiektów za pomocą metod hashCode() i equals() (które domyślnie
 // sprawdzają ich fizyczny adres w pamięci), podczas gdy TreeSet uznaje za duplikat wszystko, dla czego użyty komparator
 // zwróci wartość zero, całkowicie ignorując tożsamość obiektu.
-//
