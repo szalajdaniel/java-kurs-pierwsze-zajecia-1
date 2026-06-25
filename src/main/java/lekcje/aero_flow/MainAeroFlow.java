@@ -1,8 +1,8 @@
-package aero_flow;
+package main.java.lekcje.aero_flow;
 
-import aero_flow.controller.FlightControl;
-import aero_flow.model.Aircraft;
-import aero_flow.model.Passport;
+import main.java.lekcje.aero_flow.controller.FlightControl;
+import main.java.lekcje.aero_flow.model.Aircraft;
+import main.java.lekcje.aero_flow.model.Passport;
 
 import java.util.HashSet;
 

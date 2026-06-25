@@ -1,6 +1,6 @@
-package aero_flow.controller;
+package main.java.lekcje.aero_flow.controller;
 
-import aero_flow.model.Aircraft;
+import main.java.lekcje.aero_flow.model.Aircraft;
 
 import java.util.*;
 
