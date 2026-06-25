@@ -12,11 +12,9 @@ public class MainTreeset {
         players.add(new Player("Mariola", 1200));
         players.add(new Player("Sonia", 900));
         System.out.println(players);
-
     }
 }
 //ODPOWIEDZ NA PYTANIE:
 //Różnica polega na tym, że HashSet weryfikuje unikalność obiektów za pomocą metod hashCode() i equals() (które domyślnie
 // sprawdzają ich fizyczny adres w pamięci), podczas gdy TreeSet uznaje za duplikat wszystko, dla czego użyty komparator
 // zwróci wartość zero, całkowicie ignorując tożsamość obiektu.
-//
