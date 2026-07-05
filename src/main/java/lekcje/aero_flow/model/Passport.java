@@ -1,4 +1,4 @@
-package aero_flow.model;
+package main.java.lekcje.aero_flow.model;
 
 import java.util.Objects;
 
